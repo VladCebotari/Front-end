@@ -1,4 +1,4 @@
-.App {
+.Ap
   text-align: center;
 }
 
@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(249, 248, 248, 0.533);
 }
 
 .App-link {

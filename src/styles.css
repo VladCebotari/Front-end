@@ -1,0 +1,13 @@
+.background-image {
+  background-image: url('./background.imag.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
