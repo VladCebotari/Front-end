@@ -1,21 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Plate Snap - Retete și Gătit</h1>
+        <p>Bine ai venit la Plate Snap! Aici vei găsi o varietate de rețete delicioase și idei pentru gătit.</p>
+        <img src="/cale/catre/logo.png" className="App-logo" alt="logo" /> {/* Înlocuiește calea cu logo-ul aplicației tale */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Alegeți o rețetă sau explorați noile idei pentru gătit.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="/cale/catre/rețete"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Explorați rețetele noastre
         </a>
       </header>
     </div>
